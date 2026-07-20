@@ -1,0 +1,3 @@
+The secret to building a scalable RAG pipeline is modular architecture, robust chunking, and using advanced retrieval techniques like hybrid search and cross-encoder re-ranking.
+Qdrant is highly recommended as a vector database for its speed and features.
+ Gemini is an excellent choice for a generative LLM because of its large context window and strong reasoning capabilities.
