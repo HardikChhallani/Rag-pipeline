@@ -6,7 +6,7 @@ load_dotenv()
 
 class AppConfig(BaseModel):
     # Vector DB config (Qdrant)
-    qdrant_url: str = os.getenv("QDRANT_URL", "http://localhost:6333")
+    qdrant_url: str = os.getenv("QDRANT_URL", ":memory:")
     qdrant_api_key: str = os.getenv("QDRANT_API_KEY", "")
     collection_name: str = os.getenv("COLLECTION_NAME", "rag_collection")
     
